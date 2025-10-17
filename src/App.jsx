@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-bind */
 /* eslint-disable prettier/prettier */
-import React, { useState } from 'react';
+import { useState } from 'react';
 import 'bulma/css/bulma.css';
 import '@fortawesome/fontawesome-free/css/all.css';
 import './App.scss';
@@ -27,7 +27,7 @@ export const App = () => {
         activeTabId={activeTabId}
         onTabSelected={setActiveTabId}
       />
-      
+
     </div>
   );
 };
